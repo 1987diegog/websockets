@@ -1,9 +1,10 @@
 # WebSockets
-El proyecto muestra a modo de ejemplo como establecer una conexión simple (cliente-servidor) utilizando WebSockets.
+El proyecto muestra como establecer una conexión simple (cliente-servidor) utilizando WebSockets.
+Pueden existir distinos clientes conectados a un mismo endpoint.
 
 ## Server Enpoint
 
-Cuando un cliente se conecta al servidor, este devuelve cada 5 segundos la fecha y hora actual.
+Cuando un cliente se conecta al servidor, este devuelve cada 5 segundos la fecha y hora actual a ese cliente. 
 
     /websockets/currentDateTime
     
